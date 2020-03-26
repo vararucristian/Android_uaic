@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:key="notifications"
+        app:title="Enable message notifications"/>
+
+    <PreferenceCategory
+        android:title = "Title Text Style">
+        <CheckBoxPreference
+            app:key="TitleBold"
+            app:title="Bold"
+            app:summary="The title will be bold"
+            android:selectable="true"
+            />
+        <CheckBoxPreference
+            app:key="TitleItalic"
+            app:title="Italic"
+            app:summary="The title will be Italic"/>
+        <CheckBoxPreference
+            app:key="TitleNormal"
+            app:title="Normal"
+            app:summary="The title will be Normal"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

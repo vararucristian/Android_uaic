@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="25dp"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:gravity="center"
+        />
+
+
+
+<EditText
+    android:id="@+id/editPassword"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:textSize="25dp"
+    android:inputType="textPassword"
+    android:gravity="center"
+    android:hint="password"
+    />
+
+<TextView
+    android:id="@+id/wrongDataId"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textColor="#FF0000"
+
+    />
+
+
+
+
+</LinearLayout>

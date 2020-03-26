@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/ItemName"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:text="Test"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/ProductImage"
+        android:layout_width="261dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="41dp"
+        android:layout_toEndOf="@+id/ItemName"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/cms_976"/>
+</RelativeLayout>
